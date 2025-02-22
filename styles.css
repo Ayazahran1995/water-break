@@ -3,7 +3,7 @@
     display: inline-block;
     padding: 20px;
     background-color: #e0f7fa; /* Light blue background color */
-    background-image: url('9811263.jpg'); /* Add your water image here */
+    background-image: url('https://i.ibb.co/your-image.jpg'); /* Add your HTTPS image URL here */
     background-size: cover; /* Ensure the image covers the container */
     background-position: center; /* Center the image */
     border-radius: 15px;
@@ -12,20 +12,11 @@
     animation-play-state: paused; /* Start with animation paused */
 }
 
-/* Shaking animation */
 @keyframes shake {
-    0%, 100% {
-        transform: translateX(0);
-    }
-    25% {
-        transform: translateX(-5px);
-    }
-    50% {
-        transform: translateX(5px);
-    }
-    75% {
-        transform: translateX(-5px);
-    }
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
 }
 
 /* Timer container */
@@ -78,7 +69,6 @@ button:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-/* Message */
 #message {
     font-family: 'Fredoka One', cursive;
     font-size: 1.2rem; /* Smaller font size */
@@ -94,24 +84,4 @@ button:hover {
 
 .hidden {
     display: none;
-}
-/* Reset button */
-#reset {
-    font-family: 'Comic Neue', cursive;
-    font-size: 1rem;
-    padding: 8px 16px;
-    background: #00b4d8; /* Light blue button color */
-    color: white;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-#reset:hover {
-    background: #0096c7; /* Darker blue on hover */
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
