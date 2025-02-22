@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Break</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add a playful Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="widget-container">
+        <div class="timer-container">
+            <h1>💧 Water Break 💧</h1>
+            <div id="countdown">02:00</div>
+            <button id="start-pause">Drink Up!</button>
+            <button id="reset" class="hidden">Reset</button>
+            <div id="message" class="hidden">Hydrated and Unstoppable! 🎉</div>
+            <audio id="filling-sound" src="fill-water-192164.mp3"></audio> <!-- Filling sound -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Add confetti library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+</body>
+</html>
